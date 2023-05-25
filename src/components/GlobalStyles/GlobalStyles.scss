@@ -1,0 +1,76 @@
+@import 'normalize.css';
+
+@import url('https://use.typekit.net/waz4tsx.css');
+:root {
+  --primary: #fe2c55;
+  --contract: #2cfed5;
+  //default layout
+  --default-layout-header-height: 60px;
+  --default-layout-width: 1150px;
+  --default-layout-horizontal-spacer: 24px;
+  --black: #000;
+  --white: #fff;
+  --text-color: #333;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 1.6rem;
+  text-rendering: optimizeSpeed;
+  color: var(--text-color);
+  overflow-y: overlay;
+}
+//scroll-bar
+
+html *::-webkit-scrollbar {
+  border-radius: 0;
+  width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(22, 24, 35, 0.06);
+}
+
+html *::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+////
+button,
+input,
+[tabindex] {
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+//Custom Tippy
+body {
+  .tippy-box {
+    background-color: #545454;
+    height: 38px;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: white;
+  }
+  .tippy-arrow {
+    color: #545454;
+  }
+  .tippy-content {
+    padding: 8px 9px;
+  }
+}

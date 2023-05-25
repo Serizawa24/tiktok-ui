@@ -1,0 +1,61 @@
+.preview {
+  padding: 20px;
+  width: 320px;
+  background-color: var(--white);
+  border-radius: 8px;
+}
+.preview-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.avatar {
+  width: 44px;
+  height: 44px;
+  object-fit: cover/center;
+  border-radius: 50%;
+}
+.preview-body {
+  display: flex;
+  flex-direction: column;
+}
+.nickname {
+  font-size: 1.8rem;
+  color: #161823;
+  line-height: 2rem;
+}
+
+.check {
+  font-size: 1.4rem;
+  color: var(--contract);
+  margin-left: 8px;
+  line-height: 1.5rem;
+}
+.name {
+  font-size: 1.4rem;
+}
+.preview-footer {
+  display: flex;
+  font-size: 1.7rem;
+  color: #161823bf;
+  margin-top: 8px;
+}
+.likes,
+.followers {
+  margin-right: 12px;
+  display: flex;
+}
+.count {
+  margin-right: 6px;
+  color: #161823;
+  font-weight: 500;
+}
+.bio-wrapper {
+  border-top: 1px solid #e9e9e9;
+  margin-top: 12px;
+}
+.bio {
+  margin-top: 12px;
+  font-size: 1.4rem;
+  font-weight: 300;
+}

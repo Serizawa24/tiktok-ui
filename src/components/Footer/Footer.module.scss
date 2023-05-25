@@ -1,0 +1,24 @@
+.wrapper {
+  padding: 16px 0 0 8px;
+  border-top: 1px solid #ebebeb;
+}
+.footer-btn {
+  line-height: 3rem;
+  margin: 5px 6px 0 0;
+  padding-top: 5px;
+  height: 23px;
+  font-size: 1.2rem;
+  color: #16182380;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.author {
+  font-size: 1.2rem;
+  color: #16182380;
+}
+.about,
+.more,
+.extras {
+  margin-bottom: 8px;
+}
